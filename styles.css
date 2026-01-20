@@ -1,0 +1,89 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1f2933;
+  background-color: #f8fafc;
+}
+
+:root {
+  --accent: #0f4c5c; /* azul petróleo */
+}
+
+.hero {
+  min-height: 100vh;
+  padding-top: 100px;
+  background: linear-gradient(120deg, #f8fafc, #eef6f8);
+}
+
+.profile-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent);
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.project-card {
+  padding: 30px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  height: 100%;
+  transition: all 0.25s ease;
+  background-color: #ffffff;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(15, 76, 92, 0.15);
+}
+
+.project-card:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.btn-accent {
+  background-color: var(--accent);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-accent:hover {
+  background-color: #0c3d4a;
+}
+
+.contact-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
